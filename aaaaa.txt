@@ -1,0 +1,18 @@
+grupos.titulosEstaduais && grupos.titulosEstaduais.length > 0 ? (
+
+
+ grupos.titulosEstaduais.map(item) =>( 
+       
+    <div>
+    <h2>{item.nome}</h2>
+<ul>
+  <li>
+    <strong>teste:</strong> {item.qtd}
+  </li> 
+   <li>
+    <strong>teste:</strong> {item.Anos}
+  </li>
+</ul>
+    </div>
+    
+    )
